@@ -6,14 +6,14 @@ int main() {
   char c;
   float num1, num2;
 
-  cout << "Enter operator: +, -, *, /: ";
-  cin >> c;
-
+  
   cout << "Enter numbers: \n";
   cout<<"number 1 = ";
   cin >> num1;
   cout<< "number 2 = ";
   cin>>num2;
+   cout << "Enter operator: +, -, *, /: ";
+  cin >> c;
 
   switch(c) {
 
@@ -37,7 +37,7 @@ int main() {
 
     default:
      
-      cout << "Error! operator is not correct";
+      cout << "Error! operator is not currently added";
       break;
   }
 
