@@ -10,10 +10,11 @@ int main() {
   cout << "Enter numbers: \n";
   cout<<"number 1 = ";
   cin >> num1;
+  cout << "Enter operator: +, -, *, /: ";
+  cin >> c;
   cout<< "number 2 = ";
   cin>>num2;
-   cout << "Enter operator: +, -, *, /: ";
-  cin >> c;
+   
 
   switch(c) {
 
