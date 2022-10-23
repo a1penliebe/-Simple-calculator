@@ -38,7 +38,7 @@ int main() {
 
     default:
      
-      cout << " Error !operator is not currently added";
+      cout << " Error! operator is not currently added";
       break;
   }
 
